@@ -1,6 +1,6 @@
 steps:
 - name: 'docker'
-  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/suuk:latest', '.' ]
+  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/dadanglay:latest', '.' ]
 
 images:
-- 'gcr.io/$PROJECT_ID/suuk:latest'
+- 'gcr.io/$PROJECT_ID/dadanglay:latest'
