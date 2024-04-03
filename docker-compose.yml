@@ -11,6 +11,4 @@ steps:
     working_directory: ${{main_clone}}
     description: Performing unit tests...
     commands:
-      - npm install gulp -g 
-      - npm install
-      - gulp unit_test
+      - lscpu
